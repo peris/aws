@@ -29,5 +29,18 @@
         ]
       }
     }
+  },
+  "Outputs": {
+    "InstanceIPAddress": {
+      "Value": {
+        "Ref": "IPAddress"
+      },
+      "Description": "public IP address of the new WebServer"
+    }
+  },
+  "Parameters": {
+    "IPAddress": {
+      "Type": "AWS::EC2::Instance"
+    }
   }
 }
