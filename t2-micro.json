@@ -32,15 +32,8 @@
   },
   "Outputs": {
     "InstanceIPAddress": {
-      "Value": {
-        "Ref": "IPAddress"
-      },
+      "Value" : { "Fn::GetAtt" : [ "Ec2Instance", "PublicDnsName" ]},
       "Description": "public IP address of the new WebServer"
-    }
-  },
-  "Parameters": {
-    "IPAddress": {
-      "Type": "AWS::EC2::Instance"
     }
   }
 }
