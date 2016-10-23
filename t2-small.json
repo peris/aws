@@ -10,7 +10,7 @@
             "Ref": "InstanceSecurityGroup"
           }
         ],
-        "KeyName": "periinc",
+        "KeyName": "grinin",
         "InstanceType": "t2.small",
         "ImageId": "ami-40286957"
       }
