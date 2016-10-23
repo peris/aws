@@ -11,7 +11,7 @@
           }
         ],
         "KeyName": "periinc",
-        "InstanceType": "t2.micro",
+        "InstanceType": "t2.small",
         "ImageId": "ami-40286957"
       }
     },
